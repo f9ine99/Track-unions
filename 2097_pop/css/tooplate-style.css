@@ -18,6 +18,19 @@ h1 {
   font-size: 2.8rem;
 }
 
+.offset {  
+  box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+  
+  &:hover,
+  &:focus {
+    box-shadow: 
+      0 0 0 0 var(--hover),
+      inset 6em 3.5em 0 0 var(--hover);
+  }
+}
+
 #tm-bg {
   position: fixed;
   top: 0;
@@ -186,10 +199,18 @@ p {
   padding: 15px;
   display: none;
 }
-.ahhh{
-  color: white;
+.offset {  
+  box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+  
+  &:hover,
+  &:focus {
+    box-shadow: 
+      0 0 0 0 var(--hover),
+      inset 6em 3.5em 0 0 var(--hover);
+  }
 }
-
 .details > * {
   position: relative;
   opacity: 0;
